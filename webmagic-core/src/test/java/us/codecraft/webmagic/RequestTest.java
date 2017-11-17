@@ -9,8 +9,8 @@ import static org.assertj.core.api.Assertions.assertThat;
  * @author code4crafter@gmail.com
  *         Date: 17/3/11
  */
-public class RequestTest {
-
+public class RequestTest 
+{
     @Test
     public void testEqualsAndHashCode() throws Exception {
         Request requestA = new Request("http://www.google.com/");
